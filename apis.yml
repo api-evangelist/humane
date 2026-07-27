@@ -1,8 +1,24 @@
 aid: humane
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humane.png
 name: Humane
-description: 'Humane is a company surfaced as a portfolio company of kindred-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Humane was a consumer AI hardware startup, founded by former Apple engineers,
+  best known for the AI Pin — a screenless, wearable AI-powered device — and its companion
+  Cosmos operating system and Humane.Center cloud service. The company was acquired
+  by HP in early 2025, the AI Pin was discontinued, and its cloud services and humane.com
+  domain were taken offline. It was surfaced as a portfolio company of Kindred Ventures
+  and added to the API Evangelist network for enrichment. As of this pass the company
+  has no reachable web, developer, or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/humane/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,19 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'humane.com does not resolve (no DNS A record); acquired by HP and
+  wound down. No reachable API, docs, or developer surface as of 2026-07-20.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Artificial Intelligence
+- Hardware
+- Wearables
+- Consumer Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://humane.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
